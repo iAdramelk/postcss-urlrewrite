@@ -14,29 +14,29 @@ npm install postcss-urlrewrite
 Usage example:
 
 ```javascript
-    // dependencies
-    var fs = require( 'fs' );
-    var postcss = require( 'postcss' );
-    var urlrewrite = require( 'postcss-urlrewrite' );
+// dependencies
+var fs = require( 'fs' );
+var postcss = require( 'postcss' );
+var urlrewrite = require( 'postcss-urlrewrite' );
 
-    // css to be processed
-    var css = fs.readFileSync( 'build/build.css', 'utf8' );
+// css to be processed
+var css = fs.readFileSync( 'build/build.css', 'utf8' );
 
-    // config for urlrewrite
-    var config = {
-        imports: true,
-        properties: [ 'background', 'content' ],
-        rules: [
-            { from: \local\, to: 'global' },
-            { from: \local2\, to: 'global2' }
-        ]
-    };
+// config for urlrewrite
+var config = {
+    imports: true,
+    properties: [ 'background', 'content' ],
+    rules: [
+        { from: \local\, to: 'global' },
+        { from: \local2\, to: 'global2' }
+    ]
+};
 
-    // process css using postcss-urlrewrite
-    var out = postcss()
-       .use( urlrewrite( config ) )
-       .process( css )
-       .css;
+// process css using postcss-urlrewrite
+var out = postcss()
+   .use( urlrewrite( config ) )
+   .process( css )
+   .css;
 ```
 
 ### Configuration
