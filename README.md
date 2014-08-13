@@ -68,4 +68,4 @@ There is to way to set rules:
 ### Release History
 
  * 2014-08-12   0.1.0   Initial release.
- * 2014-08-13   0.1.1   Bumped post-helpers version to 0.2.0.
+ * 2014-08-13   0.1.1   Bumped post-helpers version to 0.2.0.
