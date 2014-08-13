@@ -1,7 +1,7 @@
 {
     "name": "postcss-urlrewrite",
     "description": "PostCSS plugin for easy url() rewriting.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -17,9 +17,9 @@
     "scripts": {
         "test": "mocha --reporter list"
     },
-    "keywords": [ "postcss" ],
+    "keywords": [ "postcss", "css" ],
     "dependencies": {
-        "postcss-helpers": "https://github.com/iAdramelk/postcss-helpers/archive/0.1.1.tar.gz"
+        "postcss-helpers": "~0.2.0"
     },
     "devDependencies": {
         "mocha": "~1.21.4",

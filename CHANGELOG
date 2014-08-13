@@ -2,3 +2,7 @@
   date: 2014-08-12
   changes:
     - Initial release.
+0.1.1:
+  date: 2014-08-13
+  changes:
+    - Bumped post-helpers version to 0.2.0.
