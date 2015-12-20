@@ -12,17 +12,17 @@
     ],
     "license": "MIT",
     "engines": {
-        "node": ">=0.10.0"
+        "node": ">=0.12.9"
     },
     "scripts": {
         "test": "mocha --reporter list"
     },
     "keywords": [ "postcss", "css" ],
     "dependencies": {
-        "postcss-helpers": "~0.2.0"
+        "postcss-helpers": "~0.3.1"
     },
     "devDependencies": {
-        "mocha": "~1.21.4",
-        "postcss": "~2.1.2"
+        "mocha": "~2.3.4",
+        "postcss": "~5.0.13"
     }
 }
