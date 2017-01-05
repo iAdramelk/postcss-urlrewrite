@@ -17,12 +17,15 @@
     "scripts": {
         "test": "mocha --reporter list"
     },
-    "keywords": [ "postcss", "css" ],
+    "keywords": [
+        "postcss",
+        "css"
+    ],
     "dependencies": {
         "postcss-helpers": "~0.3.1"
     },
     "devDependencies": {
-        "mocha": "~2.3.4",
-        "postcss": "~5.0.13"
+        "mocha": "^3.2.0",
+        "postcss": "^5.2.8"
     }
 }
