@@ -128,4 +128,17 @@ describe( 'postcss-urlrewrite', function() {
             compareFixtures( 'rules', config );
         });
     });
+
+    describe( 'if properties value is "true"', function() {
+        it( 'it should not return error', function() {
+            var config = {
+                properties: true,
+                rules: [
+                    { from: 'local', 'to': 'global' }
+                ]
+            };
+
+            compareFixtures( 'properties-default', config );
+        });
+    });
 } );
