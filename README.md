@@ -64,8 +64,3 @@ There is to way to set rules:
 
 1. Create array of objects with "from" and "to" keys. "from" can be **String** or **RegExp**, "to" can be **String** or **Function**. See [String.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) syntax for details. ONLY first matching rule will be triggered on each URI.
 2. Create function that will work with [URIjs](http://medialize.github.io/URI.js/) objects and mutate them one way or another.
-
-### Release History
-
- * 2014-08-12   0.1.0   Initial release.
- * 2014-08-13   0.1.1   Bumped post-helpers version to 0.2.0.

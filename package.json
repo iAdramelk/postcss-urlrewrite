@@ -1,7 +1,7 @@
 {
     "name": "postcss-urlrewrite",
     "description": "PostCSS plugin for easy url() rewriting.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "main": "index.js",
     "repository": {
         "type": "git",
