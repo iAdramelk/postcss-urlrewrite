@@ -16,3 +16,7 @@
   date: 2017-01-05
   changes:
     - Fixed issue #3 (properties not accepted 'true').
+0.2.2
+  date: 2017-08-31
+  changes:
+    - Fixed issue #4 (blank url() throws error).
