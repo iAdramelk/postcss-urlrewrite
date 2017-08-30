@@ -141,4 +141,16 @@ describe( 'postcss-urlrewrite', function() {
             compareFixtures( 'properties-default', config );
         });
     });
+
+    describe( 'if blank url()', function() {
+        it( 'it should not return error', function() {
+            var config = {
+                rules: [
+                    { from: 'local', 'to': 'global' }
+                ]
+            };
+
+            compareFixtures( 'blank-url', config );
+        });
+    });
 } );
