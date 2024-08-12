@@ -20,3 +20,7 @@
   date: 2017-08-31
   changes:
     - Fixed issue #4 (blank url() throws error).
+0.3.0
+  date: 2024-08-12
+  changes:
+    - Replace deprecated node.js methods and update dependencies.

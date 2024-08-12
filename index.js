@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = require( './lib/urlrewrite.js' );
+module.exports = require("./lib/urlrewrite.js");
